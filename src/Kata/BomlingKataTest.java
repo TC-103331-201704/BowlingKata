@@ -4,11 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class BomlingKataTest {
-
-	@Test
-	public void test() {
-		fail("Not yet implemented");
+public class BomlingKataTest extends TestCase {
+	public void testGutterGame() throws Exception {
+		 Game g = new Game();
 	}
-
 }
