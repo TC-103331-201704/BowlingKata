@@ -1,7 +1,6 @@
 package code;
 
-public class TenthFrame {
-	private Roll[] frameRolls;
+public class TenthFrame extends Frame{
 	
-	public TenthFrame(){ this.frameRolls = new Roll[3];}
+	public TenthFrame(){ super.frameRolls = new Roll[3];}
 }

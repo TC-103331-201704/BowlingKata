@@ -1,7 +1,13 @@
 package code;
 
 public class Frame {
-	private Roll[] frameRolls;
+	protected Roll[] frameRolls;
+	protected int score;
 	
-	public Frame(){ this.frameRolls = new Roll[2];}
+	public Frame(){ 
+		this.frameRolls = new Roll[2];
+		this.score = 0;
+	}
+	
+	public int getScore(){return this.score;}
 }

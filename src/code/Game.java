@@ -18,6 +18,10 @@ public class Game {
 	}
 	
 	public int score(){
-		return 0;
+		int TOTAL_SCORE = 0;
+		
+		for(Frame f : gameFrames) TOTAL_SCORE+= f.getScore();
+		
+		return TOTAL_SCORE;
 	}
 }
