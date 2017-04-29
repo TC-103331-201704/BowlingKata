@@ -7,7 +7,7 @@ import junit.framework.TestCase;
 
 public class BowlingKataTest extends TestCase {
 private Game g;
-	public void setUp() throws Exception{
+	protected void setUp() throws Exception{
 		g=new Game();
 	}
 	
@@ -28,6 +28,16 @@ private Game g;
 		rollMany(20,1);
 		assertEquals(20,g.score());
 	}
+	
+	@Test
+	public void testOneSpare()throws Exception{
+		g.roll(5);
+		g.roll(5);
+		g.roll(3);
+		rollMany(17,0);
+		assertEquals(16,g.score());
+	}
+	
 
 }
 	
