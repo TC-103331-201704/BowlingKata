@@ -31,6 +31,7 @@ private Game g;
 	
 	@Test
 	public void testOneSpare()throws Exception{
+		rollSpare();
 		g.roll(3);
 		rollMany(17,0);
 		assertEquals(16,g.score());
