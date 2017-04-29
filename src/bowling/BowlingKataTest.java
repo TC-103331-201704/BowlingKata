@@ -13,9 +13,7 @@ private Game g;
 	
 	@Test
 	public void test() {
-		int n=20;
-		int pins=0;
-		rollMany(n,pins);
+		rollMany(20,0);
 			assertEquals(0,g.score());
 	}
 	private void rollMany(int n, int pins){
