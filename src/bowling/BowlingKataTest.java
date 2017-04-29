@@ -29,7 +29,7 @@ private Game g;
 		assertEquals(20,g.score());
 	}
 	
-	@Test
+	/*@Test
 	public void testOneSpare()throws Exception{
 		g.roll(5);
 		g.roll(5);
@@ -37,7 +37,7 @@ private Game g;
 		rollMany(17,0);
 		assertEquals(16,g.score());
 	}
-	
+	*/
 
 }
 	
