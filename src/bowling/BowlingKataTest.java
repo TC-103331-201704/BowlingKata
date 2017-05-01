@@ -20,7 +20,7 @@ public class BowlingKataTest extends TestCase{
             g.roll(pins);
     }
 
-        @Test
+    @Test
     public void testGutterGame() throws Exception{
         rollMany(20, 0);
         assertEquals(0, g.score());
@@ -32,13 +32,17 @@ public class BowlingKataTest extends TestCase{
         assertEquals(20, g.score());
     }
 
-    /*@Test
+    @Test
     public void testOneSpare() throws Exception {
-        g.roll(5);
-        g.roll(5); // spare
+        rollSpare();
         g.roll(3);
         rollMany(17,0);
         assertEquals(16,g.score());
-    }*/
+    }
+
+    private void rollSpare() {
+        g.roll(5);
+        g.roll(5);
+    }
 
 }
