@@ -5,8 +5,8 @@ import org.junit.Test;
 public class BowlingKataTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testGutterGame() throws Exception {
+		Game g = new Game();
 	}
 
 }
