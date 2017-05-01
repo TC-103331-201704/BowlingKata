@@ -40,9 +40,28 @@ public class BowlingKataTest extends TestCase{
         assertEquals(16,g.score());
     }
 
+    @Test
+    public void testOneStrike() throws Exception {
+        rollStrike();
+        g.roll(3);
+        g.roll(4);
+        rollMany(16, 0);
+        assertEquals(24, g.score());
+    }
+
+    @Test
+    public void testPerfectGame() throws Exception {
+        rollMany(12,10);
+        assertEquals(300, g.score());
+    }
+
     private void rollSpare() {
         g.roll(5);
         g.roll(5);
+    }
+
+    private void rollStrike() {
+        g.roll(10);
     }
 
 }
