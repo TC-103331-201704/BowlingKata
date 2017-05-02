@@ -15,7 +15,8 @@ public class Game {
 		int i = 0;
 		
 		for(int frame = 0; frame<10 ; frame++){
-			if (rolls[i] + rolls[i + 1] == 10){ //SPARE
+			//SPARE
+			if (rolls[i] + rolls[i + 1] == 10){
 				score += 10 + rolls[i + 2];
 				i += 2;
 			}else{
