@@ -22,14 +22,14 @@ public class bowling extends TestCase{
 	}
 	
 
-	public void testOneSpare() throws Exception{
-		this.g.roll(5);
-		this.g.roll(5);
-		this.g.roll(3);
-		
-		this.rollMany(17, 0);
-		assertEquals(16, g.score());
-	}
+//	public void testOneSpare() throws Exception{
+//		this.g.roll(5);
+//		this.g.roll(5);
+//		this.g.roll(3);
+//		
+//		this.rollMany(17, 0);
+//		assertEquals(16, g.score());
+//	}
 	
 //-----------------------------------------------------------------------------------------------
 //					AUX. METHODS
