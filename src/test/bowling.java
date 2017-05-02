@@ -10,10 +10,7 @@ public class bowling extends TestCase{
 	
 	
 	public void testGutterGame() throws Exception{
-		int n = 20;
-		int pins = 0;
-		
-		this.rollMany(n, pins);
+		this.rollMany(20, 0);
 		
 		assertEquals(0, g.score());
 	}
@@ -28,6 +25,7 @@ public class bowling extends TestCase{
 //-----------------------------------------------------------------------------------------------
 //					AUX. METHODS
 //-----------------------------------------------------------------------------------------------
+	
 	private void rollMany(int n, int pins){
 		for(int i = 0 ; i< n ; i++) g.roll(pins);
 	}
