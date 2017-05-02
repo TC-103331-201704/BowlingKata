@@ -10,8 +10,16 @@ public class BowlingKataTest {
 	public void testGutterGame() {
 		Game game = new Game();
 	    for (int i=0; i<20; i++)
-	        game.roll(0);
+	    	game.roll(0);
 	    assertEquals(0, game.score());
 	}
+	
+	@Test
+    public void testAllOnes() throws Exception {
+	    Game game = new Game();
+	    for (int i = 0; i < 20; i++)
+	    	game.roll(1);
+	    assertEquals(20, game.score());
+	  }
 
 }
