@@ -28,7 +28,8 @@ public class Game {
 		return score;
 	}
 	
-	private boolean isSpare(int frameIndex){
-		return rolls[frameIndex] + rolls[frameIndex + 1] == 10;
-	}
+//-----------------------------------------------------------------------------------------------
+//			AUX. METHODS
+//-----------------------------------------------------------------------------------------------
+	private boolean isSpare(int frameIndex){return rolls[frameIndex] + rolls[frameIndex + 1] == 10;}
 }
