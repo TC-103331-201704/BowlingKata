@@ -30,6 +30,16 @@ public class bowling extends TestCase{
 		assertEquals(16, g.score());
 	}
 	
+	public void testOneStrike() throws Exception{
+		this.g.roll(10); //strike
+		
+		this.g.roll(3);
+		this.g.roll(4);
+		
+		this.rollMany(16, 0);
+		assertEquals(24, g.score());
+	}
+	
 //-----------------------------------------------------------------------------------------------
 //					AUX. METHODS
 //-----------------------------------------------------------------------------------------------

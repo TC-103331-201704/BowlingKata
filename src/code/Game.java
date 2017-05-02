@@ -15,8 +15,11 @@ public class Game {
 		int frameIndex = 0;
 		
 		for(int frame = 0; frame<10 ; frame++){
-			//SPARE
-			if (this.isSpare(frameIndex)){
+			if(this.rolls[frameIndex] == 10){
+				score += 10 + rolls[frameIndex + 1] + rolls[frameIndex + 2];
+				frameIndex ++;
+				
+			}else if (this.isSpare(frameIndex)){
 				score += 10 + rolls[frameIndex + 2];
 				frameIndex += 2;
 			}else{
