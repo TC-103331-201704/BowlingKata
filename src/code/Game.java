@@ -14,10 +14,10 @@ public class Game {
 		int score = 0;
 		int frameIndex = 0;
 		for (int frame = 0; frame < 10; frame++) {
-			if (rolls[frameIndex] == 10) {
+			if (this.isStrike(frameIndex)) {
 				score += 10 + strikeBonus(frameIndex);
 				frameIndex++;
-			} else if (isSpare(frameIndex)) {
+			} else if (this.isSpare(frameIndex)) {
 				score += 10 + spareBonus(frameIndex);
 				frameIndex += 2;
 			} else {
@@ -27,6 +27,9 @@ public class Game {
 		}
 		return score;
 	}
+//-----------------------------------------------------------------------------------------------
+//				CALC. SCORE METHODS
+//-----------------------------------------------------------------------------------------------
 
 	private int sumOfBallsInFrame(int frameIndex) {
 		return rolls[frameIndex] + rolls[frameIndex + 1];
@@ -41,7 +44,8 @@ public class Game {
 	}
 	
 //-----------------------------------------------------------------------------------------------
-//			AUX. METHODS
+//					AUX. METHODS
 //-----------------------------------------------------------------------------------------------
+	private boolean isStrike(int frameIndex){return rolls[frameIndex] == 10;}
 	private boolean isSpare(int frameIndex){return rolls[frameIndex] + rolls[frameIndex + 1] == 10;}
 }
