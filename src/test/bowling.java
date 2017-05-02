@@ -1,6 +1,6 @@
 package test;
 
-import org.junit.Test;
+import code.Game;
 import junit.framework.TestCase;
 
 public class bowling extends TestCase{
