@@ -1,12 +1,9 @@
 package code;
 
 public class Game {
-	public void roll(int pins){
-		
-	}
+	private int score = 0;
 	
-	public int score(){
-		return 0;
-	}
-
+	public void roll(int pins){ this.score+=pins;}
+	
+	public int score(){return this.score;}
 }
