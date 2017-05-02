@@ -23,8 +23,7 @@ public class bowling extends TestCase{
 	
 
 	public void testOneSpare() throws Exception{
-		this.g.roll(5);
-		this.g.roll(5);
+		this.rollSpare();
 		this.g.roll(3);
 		
 		this.rollMany(17, 0);
@@ -36,6 +35,11 @@ public class bowling extends TestCase{
 //-----------------------------------------------------------------------------------------------
 	
 	protected void setUp() throws Exception{this.g = new Game();}
+	
+	private void rollSpare(){
+		this.g.roll(5);
+		this.g.roll(5);		
+	}
 	
 	private void rollMany(int n, int pins){
 		for(int i = 0 ; i< n ; i++) g.roll(pins);
