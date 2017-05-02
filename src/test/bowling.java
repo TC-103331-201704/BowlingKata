@@ -11,14 +11,12 @@ public class bowling extends TestCase{
 	
 	public void testGutterGame() throws Exception{
 		this.rollMany(20, 0);
-		
 		assertEquals(0, g.score());
 	}
 	
 	
 	public void testAllOnes() throws Exception{		
-		for(int i = 0; i<20; i++) g.roll(1);
-
+		this.rollMany(20, 1);
 		assertEquals(20, g.score());
 	}
 	
