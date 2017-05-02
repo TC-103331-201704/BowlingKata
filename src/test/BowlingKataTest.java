@@ -31,13 +31,13 @@ public class BowlingKataTest {
 	    assertEquals(20, g.score());
 	}
 	
-	@Test
+	/*@Test
 	public void testOneSpare() throws Exception {
-	    g.roll(5);
-	    g.roll(5); // spare
-	    g.roll(3);
-	    rollMany(17,0);
-	    assertEquals(16,g.score());
-	}
+    g.roll(5);
+    g.roll(5); // spare
+    g.roll(3);
+    rollMany(17,0);
+    assertEquals(16,g.score());
+	}*/
 
 }
