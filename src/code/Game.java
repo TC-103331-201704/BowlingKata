@@ -13,7 +13,10 @@ public class Game {
 	public int score(){
 		int score = 0;
 		
-		for(int val : rolls) score+=val;
+		for(int i = 1 ; i<this.rolls.length ; i++){
+			if(this.rolls[i] + this.rolls[i+1] == 10) score+=10;
+			else score += this.rolls[i];
+		}
 		
 		return score;
 	}
