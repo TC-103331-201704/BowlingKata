@@ -31,13 +31,18 @@ public class bowling extends TestCase{
 	}
 	
 	public void testOneStrike() throws Exception{
-		this.g.roll(10); //strike
+		this.rollStrike();
 		
 		this.g.roll(3);
 		this.g.roll(4);
 		
 		this.rollMany(16, 0);
 		assertEquals(24, g.score());
+	}
+	
+	public void testPerfectGame() throws Exception {
+		rollMany(12, 10);
+		assertEquals(300, g.score());
 	}
 	
 //-----------------------------------------------------------------------------------------------
@@ -49,6 +54,10 @@ public class bowling extends TestCase{
 	private void rollSpare(){
 		this.g.roll(5);
 		this.g.roll(5);		
+	}
+	
+	private void rollStrike(){
+		this.g.roll(10);
 	}
 	
 	private void rollMany(int n, int pins){
