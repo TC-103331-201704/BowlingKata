@@ -10,5 +10,11 @@ public class Game {
 		this.rolls[currentRoll++] = pins;
 	}
 	
-	public int score(){return this.score;}
+	public int score(){
+		int score = 0;
+		
+		for(int val : rolls) score+=val;
+		
+		return score;
+	}
 }
