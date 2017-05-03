@@ -1,14 +1,15 @@
 package bowlingTest;
 
-import static org.junit.Assert.*;
+import junit.framework.TestCase;
 
 import org.junit.Test;
 
-public class BowlingKataTest {
+import bowlingGame.Game;
 
-	@Test
-	public void test() {
-		fail("Not yet implemented");
+public class BowlingKataTest extends TestCase { 
+
+	public void testGutterGame() throws Exception{
+		Game g = new Game();
 	}
 
 }
