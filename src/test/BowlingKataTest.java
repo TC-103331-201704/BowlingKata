@@ -16,6 +16,10 @@ public class BowlingKataTest {
     	for (int i = 0; i < n; i++)
     		g.roll(pins);
 	}
+    private void rollSpare() {
+    	g.roll(5);
+    	g.roll(5);
+    }
     
 	@Test
 	public void testGutterGame() throws Exception {
@@ -34,8 +38,7 @@ public class BowlingKataTest {
 	@Test
 	public void testOneSpare() throws Exception {
 		setUp();
-	    g.roll(5);
-	    g.roll(5); // spare
+	    rollSpare();
 	    g.roll(3);
 	    rollMany(17,0);
 	    assertEquals(16,g.score());
