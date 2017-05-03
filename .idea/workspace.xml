@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8080987b-4bb7-4ede-9dd5-eeee98c409a8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/BowlingGameTest.java" afterPath="$PROJECT_DIR$/Tests/BowlingGameTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +31,8 @@
       <file leaf-file-name="BowlingGameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/BowlingGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="83">
+              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding>
                 <element signature="e#267#268#0" expanded="true" />
                 <element signature="e#323#324#0" expanded="true" />
@@ -625,7 +624,7 @@
       <workItem from="1493023752356" duration="1253000" />
       <workItem from="1493027559722" duration="656000" />
       <workItem from="1493036390475" duration="13000" />
-      <workItem from="1493829887752" duration="6064000" />
+      <workItem from="1493829887752" duration="6093000" />
     </task>
     <task id="LOCAL-00001" summary="BowlingGame class and BowlingGameTest have been created">
       <created>1493842819670</created>
@@ -802,7 +801,14 @@
       <option name="project" value="LOCAL" />
       <updated>1493846035522</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Fifth test.1">
+      <created>1493846081597</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1493846081597</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -838,7 +844,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7986000" />
+    <option name="totallyTimeSpent" value="8015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="708" y="0" width="665" height="735" extended-state="0" />
@@ -853,7 +859,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6312292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12624584" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -882,7 +888,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BowlingGame class and BowlingGameTest have been created" />
     <MESSAGE value="First test has been implemented" />
     <MESSAGE value="Second test roll loop is duplicated" />
     <MESSAGE value="Second test.7" />
@@ -907,7 +912,8 @@
     <MESSAGE value="Fourth test.3" />
     <MESSAGE value="Fourth test.4" />
     <MESSAGE value="Fourth test.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fourth test.5" />
+    <MESSAGE value="Fifth test.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fifth test.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -965,8 +971,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/BowlingGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="83">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
           <folding>
             <element signature="e#267#268#0" expanded="true" />
             <element signature="e#323#324#0" expanded="true" />
