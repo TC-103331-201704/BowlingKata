@@ -46,6 +46,7 @@ public class BowlingKataTest {
 	
 	@Test
 	public void testOneStrike() throws Exception {
+		setUp();
 	    g.roll(10); // strike
 	    g.roll(3);
 	    g.roll(4);
