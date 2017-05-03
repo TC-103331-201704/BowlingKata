@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8080987b-4bb7-4ede-9dd5-eeee98c409a8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tests/BowlingGameTest.java" afterPath="$PROJECT_DIR$/Tests/BowlingGameTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Game.java" afterPath="$PROJECT_DIR$/src/Game.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BowlingGameTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BowlingGameTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/BowlingGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="177">
@@ -43,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state relative-caret-position="211">
+              <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -77,8 +76,8 @@
         <option value="$PROJECT_DIR$/src/prueba.java" />
         <option value="$PROJECT_DIR$/src/pruebaTest.java" />
         <option value="$PROJECT_DIR$/src/BowlingGame.java" />
-        <option value="$PROJECT_DIR$/src/Game.java" />
         <option value="$PROJECT_DIR$/Tests/BowlingGameTest.java" />
+        <option value="$PROJECT_DIR$/src/Game.java" />
       </list>
     </option>
   </component>
@@ -611,7 +610,7 @@
       <workItem from="1493023752356" duration="1253000" />
       <workItem from="1493027559722" duration="656000" />
       <workItem from="1493036390475" duration="13000" />
-      <workItem from="1493829887752" duration="5024000" />
+      <workItem from="1493829887752" duration="5135000" />
     </task>
     <task id="LOCAL-00001" summary="BowlingGame class and BowlingGameTest have been created">
       <created>1493842819670</created>
@@ -704,16 +703,17 @@
       <option name="project" value="LOCAL" />
       <updated>1493844992714</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Third test.11">
+      <created>1493845030733</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1493845030733</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BowlingGameTest - 2017.05.03 at 22h 34m 32s.xml">
-      <configuration name="BowlingGameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BowlingGameTest - 2017.05.03 at 22h 37m 48s.xml">
-      <configuration name="BowlingGameTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BowlingGameTest - 2017.05.03 at 22h 40m 39s.xml">
       <configuration name="BowlingGameTest" configurationId="JUnit" />
     </history-entry>
@@ -738,9 +738,15 @@
     <history-entry file="BowlingGameTest - 2017.05.03 at 22h 57m 00s.xml">
       <configuration name="BowlingGameTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BowlingGameTest - 2017.05.03 at 22h 58m 16s.xml">
+      <configuration name="BowlingGameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BowlingGameTest - 2017.05.03 at 22h 58m 44s.xml">
+      <configuration name="BowlingGameTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6946000" />
+    <option name="totallyTimeSpent" value="7057000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="708" y="0" width="665" height="735" extended-state="0" />
@@ -797,7 +803,8 @@
     <MESSAGE value="Third test.8" />
     <MESSAGE value="Third test.9" />
     <MESSAGE value="Third test.10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third test.10" />
+    <MESSAGE value="Third test.11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third test.11" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -832,14 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="16" column="46" lean-forward="false" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/BowlingGameTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -848,6 +847,14 @@
             <element signature="e#267#268#0" expanded="true" />
             <element signature="e#323#324#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
