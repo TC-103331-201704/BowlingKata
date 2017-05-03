@@ -4,6 +4,7 @@ package Game;
  * Created by santi on 3/5/17.
  */
 public class Game {
+
     private int rolls[] = new int[21];
     private int currentRoll = 0;
 
@@ -42,5 +43,13 @@ public class Game {
     }
     private boolean isSpare(int frameIndex) {
         return rolls[frameIndex]+rolls[frameIndex+1] == 10;
+    }
+
+    @Override
+    public String toString() {
+        String s = "";
+        for (int i = 0; i < rolls.length; i++)
+            s += rolls[i] +"\t";
+        return s;
     }
 }
