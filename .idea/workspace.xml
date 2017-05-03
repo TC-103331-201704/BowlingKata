@@ -29,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BowlingGameTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BowlingGameTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/BowlingGameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="406">
+              <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding>
                 <element signature="e#267#268#0" expanded="true" />
                 <element signature="e#323#324#0" expanded="true" />
@@ -42,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Game.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="307">
@@ -610,7 +610,7 @@
       <workItem from="1493023752356" duration="1253000" />
       <workItem from="1493027559722" duration="656000" />
       <workItem from="1493036390475" duration="13000" />
-      <workItem from="1493829887752" duration="5702000" />
+      <workItem from="1493829887752" duration="5766000" />
     </task>
     <task id="LOCAL-00001" summary="BowlingGame class and BowlingGameTest have been created">
       <created>1493842819670</created>
@@ -745,13 +745,17 @@
       <option name="project" value="LOCAL" />
       <updated>1493845619924</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Third test.17">
+      <created>1493845709728</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1493845709728</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BowlingGameTest - 2017.05.03 at 22h 54m 00s.xml">
-      <configuration name="BowlingGameTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BowlingGameTest - 2017.05.03 at 22h 57m 00s.xml">
       <configuration name="BowlingGameTest" configurationId="JUnit" />
     </history-entry>
@@ -779,9 +783,12 @@
     <history-entry file="BowlingGameTest - 2017.05.03 at 23h 08m 15s.xml">
       <configuration name="BowlingGameTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BowlingGameTest - 2017.05.03 at 23h 09m 15s.xml">
+      <configuration name="BowlingGameTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7624000" />
+    <option name="totallyTimeSpent" value="7688000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="708" y="0" width="665" height="735" extended-state="0" />
@@ -844,7 +851,8 @@
     <MESSAGE value="Third test.14" />
     <MESSAGE value="Third test.15" />
     <MESSAGE value="Third test.16" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third test.16" />
+    <MESSAGE value="Third test.17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third test.17" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -879,22 +887,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/BowlingGameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+          <folding>
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="307">
           <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/BowlingGameTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding>
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
