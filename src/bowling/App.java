@@ -21,10 +21,6 @@ public class App {
     }
 
 
-/*
-    public class BowlingGameTest extends TestCase {
-    }
-*/
 
 
 }
