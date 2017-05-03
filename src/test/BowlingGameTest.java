@@ -28,6 +28,13 @@ public class BowlingGameTest extends TestCase {
         assertEquals(20, g.score());
     }
 
+    public void testOneSpare() throws Exception {
+        rollSpare();
+        g.roll(3);
+        rollMany(17, 0);
+        assertEquals(16, g.score());
+    }
+
     public void testOneStrike() throws Exception {
         g.roll(10); // strike
         g.roll(3);
