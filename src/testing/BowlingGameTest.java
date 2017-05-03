@@ -42,7 +42,7 @@ public class BowlingGameTest extends TestCase {
 	
 	public void testPerfectGame() throws Exception {
 		 rollMany(12,10);
-		 assertEquals(300, g.score());
+		 assertEquals(300, g.score()); 
 	}
 	
 	private void rollStrike() {
