@@ -20,6 +20,9 @@ public class BowlingKataTest {
     	g.roll(5);
     	g.roll(5);
     }
+    private void rollStrike() {
+    	g.roll(10);
+    }
     
 	@Test
 	public void testGutterGame() throws Exception {
@@ -47,7 +50,7 @@ public class BowlingKataTest {
 	@Test
 	public void testOneStrike() throws Exception {
 		setUp();
-	    g.roll(10); // strike
+	    rollStrike();
 	    g.roll(3);
 	    g.roll(4);
 	    rollMany(16, 0);
