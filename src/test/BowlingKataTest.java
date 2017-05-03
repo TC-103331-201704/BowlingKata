@@ -31,7 +31,7 @@ public class BowlingKataTest {
 	    assertEquals(20, g.score());
 	}
 	
-/*	@Test
+	@Test
 	public void testOneSpare() throws Exception {
 		setUp();
 	    g.roll(5);
@@ -40,5 +40,5 @@ public class BowlingKataTest {
 	    rollMany(17,0);
 	    assertEquals(16,g.score());
 	}
-*/
+
 }
