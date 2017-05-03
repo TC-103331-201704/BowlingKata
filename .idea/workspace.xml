@@ -45,8 +45,8 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="273">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -610,7 +610,7 @@
       <workItem from="1493023752356" duration="1253000" />
       <workItem from="1493027559722" duration="656000" />
       <workItem from="1493036390475" duration="13000" />
-      <workItem from="1493829887752" duration="5535000" />
+      <workItem from="1493829887752" duration="5612000" />
     </task>
     <task id="LOCAL-00001" summary="BowlingGame class and BowlingGameTest have been created">
       <created>1493842819670</created>
@@ -731,13 +731,17 @@
       <option name="project" value="LOCAL" />
       <updated>1493845379283</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Third test.15">
+      <created>1493845546674</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1493845546674</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BowlingGameTest - 2017.05.03 at 22h 51m 05s.xml">
-      <configuration name="BowlingGameTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BowlingGameTest - 2017.05.03 at 22h 53m 15s.xml">
       <configuration name="BowlingGameTest" configurationId="JUnit" />
     </history-entry>
@@ -765,9 +769,12 @@
     <history-entry file="BowlingGameTest - 2017.05.03 at 23h 05m 27s.xml">
       <configuration name="BowlingGameTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BowlingGameTest - 2017.05.03 at 23h 06m 40s.xml">
+      <configuration name="BowlingGameTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7457000" />
+    <option name="totallyTimeSpent" value="7534000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="708" y="0" width="665" height="735" extended-state="0" />
@@ -828,7 +835,8 @@
     <MESSAGE value="Third test.12" />
     <MESSAGE value="Third test.13" />
     <MESSAGE value="Third test.14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Third test.14" />
+    <MESSAGE value="Third test.15" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third test.15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -876,8 +884,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="273">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding />
         </state>
       </provider>
