@@ -11,12 +11,7 @@ public class BowlingGameTest extends TestCase {
     }
 
     public void testGutterGame() throws Exception {
-        int n = 20;
-        int pins = 0;
-        rollMany(n, pins);
-        Game g = new Game();
-        for (int i=0; i<n; i++)
-            g.roll(pins);
+        rollMany(20, 0);
         assertEquals(0, g.score());
     }
 
