@@ -6,7 +6,7 @@ public class Game {
 	}
 
 	public Object score() {
-		return -1;
+		return 0;
 	}
 
 }
