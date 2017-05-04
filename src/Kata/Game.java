@@ -1,12 +1,12 @@
 package Kata;
 
 public class Game {
-
-	public void roll(int i) {
-	}
-
-	public Object score() {
-		return 0;
-	}
-
+ private int score = 0;
+ 
+ public void roll(int pins) {
+	 score += pins;
+ }
+ public int score() {
+	 return score;
+ }
 }
