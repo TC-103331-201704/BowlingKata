@@ -11,4 +11,12 @@ public class BowlingGameTest extends TestCase{
         }
         assertEquals(0, g.score());
     }
+
+    public void testAllOnes() {
+        Game g = new Game();
+        for (int i = 0; i < 20; i++){
+            g.roll(1);
+        }
+        assertEquals(20, g.score());
+    }
 }
