@@ -1,6 +1,7 @@
 package test;
 import static org.junit.Assert.*;
 
+import org.junit.Before;
 import org.junit.Test;
 import domain.Game;
 
@@ -8,7 +9,8 @@ public class BowlingKataTest {
 	
 	private Game g;
 	
-    protected void setUp() throws Exception {
+	@Before
+    public void setUp(){
     	g = new Game();
 	}
 	
@@ -26,21 +28,18 @@ public class BowlingKataTest {
     
 	@Test
 	public void testGutterGame() throws Exception {
-		setUp();
 	    rollMany(20, 0);
 	    assertEquals(0, g.score());
 	}
 	
 	@Test
     public void testAllOnes() throws Exception {
-		setUp();
 	    rollMany(20, 1);
 	    assertEquals(20, g.score());
 	}
 	
 	@Test
 	public void testOneSpare() throws Exception {
-		setUp();
 	    rollSpare();
 	    g.roll(3);
 	    rollMany(17,0);
@@ -49,7 +48,6 @@ public class BowlingKataTest {
 	
 	@Test
 	public void testOneStrike() throws Exception {
-		setUp();
 	    rollStrike();
 	    g.roll(3);
 	    g.roll(4);
@@ -59,7 +57,6 @@ public class BowlingKataTest {
 	
 	@Test
 	public void testPerfectGame() throws Exception {
-		setUp();
 		rollMany(12,10);
 		assertEquals(300, g.score());
 	}
