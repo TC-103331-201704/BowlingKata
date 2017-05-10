@@ -18,10 +18,13 @@ public class BowlingGameTest {
     public void testGutterGame(){
         int n = 20;
         int pins = 0;
-        for (int i = 0; i < n; i++) {
-            g.roll(pins);
-        }
+        rollMany(n,pins);
         assertEquals(0, g.score());
+    }
+
+    private void rollMany(int n, int pins) {
+        for (int i = 0; i < n; i++)
+            g.roll(pins);
     }
 
     @Test
