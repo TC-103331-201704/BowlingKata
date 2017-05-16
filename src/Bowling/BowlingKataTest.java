@@ -11,9 +11,8 @@ public class BowlingKataTest extends TestCase {
 	}
 
 	public void testGutterGame() throws Exception {
-		int n = 20;
-		int pins = 0;
-		rollMany(n, pins);
+		
+		rollMany(20, 0);
 		assertEquals(0, g.score());
 
 	}
