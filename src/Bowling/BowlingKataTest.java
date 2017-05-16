@@ -25,12 +25,12 @@ public class BowlingKataTest extends TestCase {
 		rollMany(20, 1);
 		assertEquals(20, g.score());
 	}
-	
-	public void testOneSpare() throws Exception {
-		g.roll(5);
-		g.roll(5);//spare
-		g.roll(3);
-		rollMany(17, 0);
-		assertEquals(16, g.score()); 
-	}
+
+	// public void testOneSpare() throws Exception {
+	// g.roll(5);
+	// g.roll(5);//spare
+	// g.roll(3);
+	// rollMany(17, 0);
+	// assertEquals(16, g.score());
+	// }
 }
