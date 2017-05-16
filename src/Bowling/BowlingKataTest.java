@@ -10,3 +10,4 @@ public class BowlingKataTest extends TestCase {
 		Game g = new Game();
 	}
 }
+ 
