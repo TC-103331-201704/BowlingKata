@@ -10,6 +10,12 @@ public class BowlingGameTest extends TestCase{
 	protected void setUp() throws Exception {
 		g = new Game();
 	}
+	
+	private void rollMany (int n, int pins){
+		for (int i = 0; i < n; i++)
+			g.roll(pins);
+	}
+	
 
 	public void testGutterGame() throws Exception {
 		int n = 20;
@@ -18,14 +24,8 @@ public class BowlingGameTest extends TestCase{
 		assertEquals(0, g.score());
 	}
 	
-	private void rollMany (int n, int pins){
-		for (int i = 0; i < n; i++)
-			g.roll(pins);
-	}
-	
 	public void testAllOnes() throws Exception {
-		for (int i = 0; i < 20; i++)
-			g.roll(1);
+		rollMany(20,1);
 		assertEquals(20, g.score());	
 	}
 }
