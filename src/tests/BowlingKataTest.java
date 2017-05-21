@@ -38,12 +38,16 @@ public class BowlingKataTest {
 	    assertEquals(20, g.score());
 	}
 	
-	  public void testOneSpare() throws Exception {
-	    g.roll(5);
-	    g.roll(5);
+	public void testOneSpare() throws Exception {
+		rollSpare();
 	    g.roll(3);
 	    rollMany(17,0);
 	    assertEquals(16,g.score());
-	  }
+	}
+	  
+	private void rollSpare() {
+		g.roll(5);
+		g.roll(5);
+	}
 	
 }
