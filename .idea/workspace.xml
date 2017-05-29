@@ -26,8 +26,8 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            <state relative-caret-position="308">
+              <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
               <folding>
                 <element signature="e#124#125#0" expanded="true" />
                 <element signature="e#167#168#0" expanded="true" />
@@ -57,8 +57,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/Game.java" />
         <option value="$PROJECT_DIR$/src/BowlingGameTest.java" />
+        <option value="$PROJECT_DIR$/src/Game.java" />
       </list>
     </option>
   </component>
@@ -563,14 +563,11 @@
       <option name="presentableId" value="Default" />
       <updated>1493026198849</updated>
       <workItem from="1493026202438" duration="1000" />
-      <workItem from="1496046068425" duration="2906000" />
+      <workItem from="1496046068425" duration="2944000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BowlingGameTest - 2017.05.29 at 11h 04m 00s.xml">
-      <configuration name="BowlingGameTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BowlingGameTest - 2017.05.29 at 11h 04m 45s.xml">
       <configuration name="BowlingGameTest" configurationId="JUnit" />
     </history-entry>
@@ -598,9 +595,12 @@
     <history-entry file="BowlingGameTest - 2017.05.29 at 11h 10m 03s.xml">
       <configuration name="BowlingGameTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BowlingGameTest - 2017.05.29 at 11h 10m 43s.xml">
+      <configuration name="BowlingGameTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2907000" />
+    <option name="totallyTimeSpent" value="2945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -670,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="308">
+          <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding>
             <element signature="e#124#125#0" expanded="true" />
             <element signature="e#167#168#0" expanded="true" />
